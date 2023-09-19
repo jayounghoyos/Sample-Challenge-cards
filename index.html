@@ -3,14 +3,77 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="./src/input.css" rel="stylesheet">
 </head>
 
 <body>
-    <p>dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-    <h1>dsadsadsadasdasd</h1>
+    <div class="bg-[#010068]">
+        <div class="container flex justify-between mx-auto px-4 py-3 text-white items-center">
+            <div class="md:flex hidden items-center"> <img src="../images/logo-nodo-an.gif" alt="Laboratorio de Futuros" class="h-12 w-auto">
+                <h1 px-5="" class="text-4xl ml-2">|</h1>
+                <h1 class="text-2xl ml-2 font-kickertrial"><a>Laboratorio de Futuros</a></h1>
+            </div>
+            <div class="md:hidden">
+                <h1 class="text-2xl ml-2 font-kickertrial"><a>Laboratorio de Futuros</a></h1>
+            </div>
+            <nav>
+                <ul class="lg:flex hidden space-x-10 font-inputsans">
+                    <li><a href="https://www.nodoeafit.com/verificar" class="hover:underline">NODO</a></li>
+                    <li><a href="#" class="hover:underline">Eventos</a></li>
+                    <li><a routerlink="/form" class="hover:underline" href="/form">Reserva</a></li>
+                    <li><a href="#" id="registrarse-button" class="hover:underline p-3 rounded-full">Registrarse</a></li>
+                </ul>
+            </nav><button class="lg:hidden"><svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6"><path  stroke-linecap="round"  stroke-width="2" ></path></svg></button>
+        </div>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-4 mt-2.5">
+        <div class="w-96 h-48 bg-white rounded-md overflow-hidden shadow-lg mb-4 flex">
+            <img src="../images/salaDePercpcion.jpg" alt="Sala de Percepción" class="w-1/2 h-auto">
+            <div class="p-4 w-1/2">
+                <h2 class="text-xl font-semibold text-gray-800">Sala de Percepción</h2>
+                <p class="text-gray-700 text-base mt-2">Lorem ipsum dol.</p>
+                <button class="bg-yellow-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-yellow-600 focus:outline-none">Reservar</button>
+            </div>
+        </div>
+
+        <div class="w-96 h-48 bg-white rounded-md overflow-hidden shadow-lg mb-4 flex">
+            <img src="../images/asombro2.jpg" alt="Segunda Sala de Asombro" class="w-1/2 h-auto">
+            <div class="p-4 w-1/2">
+                <h2 class="text-xl font-semibold text-gray-800">Segunda Sala de Asombro</h2>
+                <p class="text-gray-700 text-base mt-2">Lorem ipsum dol.</p>
+                <button class="bg-yellow-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-yellow-600 focus:outline-none">Reservar</button>
+            </div>
+        </div>
+
+        <div class="w-96 h-48 bg-white rounded-md overflow-hidden shadow-lg mb-4 flex">
+            <img src="../images/SalaDeCreacion.jpg" alt="Sala de Creación" class="w-1/2 h-auto">
+            <div class="p-4 w-1/2">
+                <h2 class="text-xl font-semibold text-gray-800">Sala de Creación</h2>
+                <p class="text-gray-700 text-base mt-2">Lorem ipsum dol.</p>
+                <button class="bg-yellow-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-yellow-600 focus:outline-none">Reservar</button>
+            </div>
+        </div>
+
+        <div class="w-96 h-48 bg-white rounded-md overflow-hidden shadow-lg mb-4 flex">
+            <img src="../images/espacioDeConversacion2.jpg" alt="Sala de Conexión" class="w-1/2 h-auto">
+            <div class="p-4 w-1/2">
+                <h2 class="text-xl font-semibold text-gray-800">Sala de Conexión</h2>
+                <p class="text-gray-700 text-base mt-2">Lorem ipsum dol.</p>
+                <button class="bg-yellow-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-yellow-600 focus:outline-none">Reservar</button>
+            </div>
+        </div>
+
+        <div class="w-96 h-48 bg-white rounded-md overflow-hidden shadow-lg mb-4 flex">
+            <img src="../images/asombro1.jpg" alt="Sala de Asombro" class="w-1/2 h-auto">
+            <div class="p-4 w-1/2">
+                <h2 class="text-xl font-semibold text-gray-800">Sala de Asombro</h2>
+                <p class="text-gray-700 text-base mt-2">Lorem ipsum dol.</p>
+                <button class="bg-yellow-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-yellow-600 focus:outline-none">Reservar</button>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
